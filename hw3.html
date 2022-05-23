@@ -12,23 +12,32 @@
     <title>Canto Bight</title>
 </head>
 <body>
-    <script>
-
-    </script>
+    <!--the largest header and the name of the casino-->
     <h1>Canto Bight Casino</h1>
+    <!--provides a break in the text-->
     <br>
+    <!--the 4th largest header just a little something i put in there so the player knows what game they are playing-->
     <h4>Today we are going to play Hi-Low!</h4>
+    <!--the intro to the rules and the first paragraph-->
     <p>The rules of the game are simple.</p>
+    <!--this puts a horizontal line on the page-->
     <hr>
-    <p>You start with a card, then you decide weather or not the next card will be higher or lower.</p>
+    <!--these are the rules-->
+    <p>You start with a number, then you decide weather or not the next number will be higher or lower.</p>
     <p>You gain a point if you guess correctly.</p>
     <p>Your goal is to get to 21 points.</p>
     <p>If you guess incorrectly you loose a point.</p>
+    <p>The numbers are from 1 to 13.</p>
+    <!--another horizontal line-->
     <hr>
+    <!--these are the buttons that control the game-->
+    <button onclick="play()">Play</button>
     <button onclick="reset()">Reset</button>
     <button onclick="nextCardH()">Higher</button>
     <button onclick="nextCardL()">Lower</button>
-    <div id="displayCard">Your card goes here.</div>
+    <!--these are places that i can have the javascript change since they have id's-->
+    <div id="displayCard">Your number goes here.</div>
     <div id="displayScore">Your score is...</div>
+<!--closing tags-->
 </body>
 </html>

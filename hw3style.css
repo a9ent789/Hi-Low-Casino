@@ -1,8 +1,14 @@
+/*Tecumse McMulllin*/
 h1 {
+    /*Changes the position to center of h1*/
     text-align: center;
+    /*changes the background color of h1*/
+    background-color: bisque;
     
 }
 body {
+    /*changes the position to center of the body text*/
     text-align: center;
+    /*changes the background image of the body*/
     background-image: url(background.webp);
 }
